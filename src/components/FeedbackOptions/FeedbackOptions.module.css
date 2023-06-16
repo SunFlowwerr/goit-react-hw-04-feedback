@@ -1,0 +1,25 @@
+.buttonList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.button {
+  width: 90px;
+  height: 40px;
+  font-size: 18px;
+  color: #6b8e23;
+  background-color: #fffacd;
+  border: 2px solid #6b8e23;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  background-color: #f0e68c;
+}

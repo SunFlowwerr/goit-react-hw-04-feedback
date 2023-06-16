@@ -1,0 +1,10 @@
+.section {
+  width: 400px;
+  margin: 40px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #6b8e23;
+}

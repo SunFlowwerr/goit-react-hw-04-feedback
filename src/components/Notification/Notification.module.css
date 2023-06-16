@@ -1,0 +1,9 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  list-style: none;
+  font-size: 18px;
+  color: #6b8e23;
+}
