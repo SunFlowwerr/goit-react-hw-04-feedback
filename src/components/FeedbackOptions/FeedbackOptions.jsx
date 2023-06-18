@@ -17,7 +17,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   </ul>
 );
 
-Event.propTypes = {
+FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 };

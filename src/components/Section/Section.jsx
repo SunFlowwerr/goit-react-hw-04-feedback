@@ -8,6 +8,6 @@ export const Section = ({ title, children }) => (
   </section>
 );
 
-Event.propTypes = {
+Section.propTypes = {
   title: PropTypes.string.isRequired,
 };

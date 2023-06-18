@@ -26,7 +26,7 @@ export const Statistics = ({
   </ul>
 );
 
-Event.propTypes = {
+Statistics.propTypes = {
   good: PropTypes.number.isRequired,
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,
